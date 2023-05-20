@@ -43,9 +43,9 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           cache-from: type=local,src=/tmp/.buildx-cache
-          cache-to: type=local,mode=max,dest=/tmp/.buildx-cache-new
+          cache-to: type=local,mode=min,dest=/tmp/.buildx-cache-new
           tags: |
-            spg51/lab:ghlab10extended
+            bbiegajlo/gh_action_lab:ghlab3extended
 
       - name: Move cache
         run: |
