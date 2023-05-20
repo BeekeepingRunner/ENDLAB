@@ -1,2 +1,3 @@
-# ENDLAB
-przeciez wiadomo
+# Laboratorium
+
+GitHub Actions - przeglad podstawowych rozwiazan
